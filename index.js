@@ -1,9 +1,24 @@
-// alert('ten');
-// alert(77);
 
-console.log('ten');    //string
-console.log(10.45);    //number
-console.log(10n);      //bigint
-console.log(true);     //boolean
-console.log(undefined);//object
-console.log(null);
+// console.log('ageAnimal = ', ageAnimal);
+// console.log('type ageAnimal = ',typeof ageAnimal)
+
+let ageAnimal;
+
+console.log('ageAnimal = ', ageAnimal);
+console.log('type ageAnimal = ',typeof ageAnimal);
+ageAnimal = 2;
+console.log('ageAnimal = ', ageAnimal);
+console.log('type ageAnimal = ',typeof ageAnimal);
+
+const amountPawsAnimal = 4;
+
+const AMOUNT_DAYS_WEEK = 7;
+
+const userFirstName = 'Vova';
+const aserAge = 19;
+const programLanguage = 'js';
+const adultLge = true;
+const citizenshipUkraine = null;
+let yearBirth;
+
+
