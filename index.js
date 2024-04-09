@@ -1,24 +1,11 @@
+const numberFromDB = 4;
+const numberFromUser = '2';
 
-// console.log('ageAnimal = ', ageAnimal);
-// console.log('type ageAnimal = ',typeof ageAnimal)
+const result = numberFromDB - numberFromUser;
 
-let ageAnimal;
+console.log('result =', result);
 
-console.log('ageAnimal = ', ageAnimal);
-console.log('type ageAnimal = ',typeof ageAnimal);
-ageAnimal = 2;
-console.log('ageAnimal = ', ageAnimal);
-console.log('type ageAnimal = ',typeof ageAnimal);
-
-const amountPawsAnimal = 4;
-
-const AMOUNT_DAYS_WEEK = 7;
-
-const userFirstName = 'Vova';
-const aserAge = 19;
-const programLanguage = 'js';
-const adultLge = true;
-const citizenshipUkraine = null;
-let yearBirth;
-
-
+const userFirstName ='Bred';
+const userLastName ='Pitt';
+const userFullName = userFirstName + '' + userLastName;
+console.log('userFullName=', userFullName);
