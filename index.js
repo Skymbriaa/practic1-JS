@@ -1,11 +1,27 @@
-const numberFromDB = 4;
-const numberFromUser = '2';
 
-const result = numberFromDB - numberFromUser;
+// const age = 23;  //true
 
-console.log('result =', result);
+// const isAdult = !userAge;
 
-const userFirstName ='Bred';
-const userLastName ='Pitt';
-const userFullName = userFirstName + '' + userLastName;
-console.log('userFullName=', userFullName);
+// //!
+
+// const resultNot = !isAdult;
+
+// console.log(resultNot);
+
+// console.log(!userAge);
+
+/*
+false
+0 -0 +0
+''
+underfined
+null
+NaN
+*/
+
+const quantity = 2;
+
+const isExists = !!quantity;
+
+
